@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stundenplan</title>
+    <!-- Verweis auf die externe CSS-Datei -->
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>Stundenplan</h1>
+    </header>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Zeit</th>
+                    <th>Montag</th>
+                    <th>Dienstag</th>
+                    <th>Mittwoch</th>
+                    <th>Donnerstag</th>
+                    <th>Freitag</th>
+                </tr>
+            </thead>
+            <tbody id="schedule-body">
+                <!-- Hier werden die Stundenplandaten eingefügt -->
+                <tr>
+                    <td>7:55 - 8:40</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+                <tr>
+                    <td>8:45 - 9:30</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+                <!-- Weitere Zeilen hinzufügen -->
+                <tr>
+                    <td>9:50 - 10:35</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+                <tr>
+                    <td>10:40 - 11:25</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+                <tr>
+                    <td>11:40 - 12:25</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>                    
+                    <td>12:30 - 13:15</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                 </tr>
+                 <td>13:30 - 14:15</td>
+                 <td contenteditable="true"></td>
+                 <td contenteditable="true"></td>
+                 <td contenteditable="true"></td>
+                 <td contenteditable="true"></td>
+                 <td contenteditable="true"></td>
+              </tr>
+                <!-- Weitere Zeilen hinzufügen -->
+                  
+
+                  </div>
+                  <body>
+                    <ul class="navbar">
+                        <li class="nav-item"><a href="#">1.halbjahr</a></li>
+                        <li class="nav-item"><a href="#">2.halbjahr</a></li>
+                    </ul>
+                </body>
+            </tbody>
+        </table>
+        <!-- Hier ist der "Speichern"-Button -->
+        <button click="saveSchedule()">Speichern</button>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
+
